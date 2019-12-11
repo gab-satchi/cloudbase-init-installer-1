@@ -10,7 +10,7 @@ jobs:
       max-parallel: 100
       matrix:
         cbsinit_repo: ['https://github.com/gab-satchi/cloudbase-init']
-        cbsinit_branch: ['master']
+        cbsinit_branch: ['cloud-init']
 
     steps:
     - uses: actions/checkout@v1
